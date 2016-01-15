@@ -6,5 +6,9 @@
  * Follow this format:
  * export const YOUR_ACTION_CONSTANT = 'YOUR_ACTION_CONSTANT';
  */
-export const CHANGE_PROJECT_NAME = 'CHANGE_PROJECT_NAME';
-export const CHANGE_OWNER_NAME = 'CHANGE_OWNER_NAME';
+export const CHANGE_WEIGHT = 'CHANGE_OWNER_NAME';
+export const CHANGE_UNITS = 'CHANGE_UNITS';
+export const UNIT_KGS = 'kg'; 
+export const UNIT_LBS = 'lbs'; 
+
+export const RM_FORMULA = (reps)=>{(1.0278 - (.0278 * Reps) )};

@@ -1,1 +1,22 @@
 /*This file contains all styles related to the button component.*/
+
+button{
+	background: none;
+	border:none;
+}
+
+.ButtonGroup{
+	display: flex;
+}
+
+.ButtonGroup button{
+	flex:1;
+	border-right: 1px solid rgb(111,111,111);
+	background: rgba(88,155,220,.8);
+	color: white;
+}
+
+.ButtonGroup button:last-child{
+	border:none;
+	padding: 0;
+}

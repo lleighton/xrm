@@ -1,7 +1,7 @@
 {
-  "name": "reactjs-boilerplate",
+  "name": "XRM",
   "version": "2.4.0",
-  "description": "Quick setup for new React.js applications featuring Redux, hot–reloading, PostCSS, react-router and Mocha.",
+  "description": "Quickly calculate your x RM and percentages",
   "dependencies": {
     "fontfaceobserver": "^1.5.1",
     "history": "1.17.0",
@@ -27,6 +27,7 @@
     "babel-preset-react": "^6.0.0",
     "babel-preset-react-hmre": "1.0.1",
     "babel-preset-stage-2": "^6.0.0",
+    "classnames": "^2.2.3",
     "cross-env": "1.0.6",
     "css-loader": "^0.23.0",
     "cssnano": "^3.0.1",
@@ -54,14 +55,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mxstbr/react-boilerplate.git"
+    "url": "git://github.com/lleighton/xrm.git"
   },
   "scripts": {
     "lint": "eslint .",
     "test": "mocha --compilers js:babel-core/register --recursive",
     "test:watch": "npm test -- --watch",
     "start": "cross-env NODE_ENV=development node server.dev.js",
-    "build": "npm run test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
+    "build": "npm run && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p",
     "serve": "cross-env NODE_ENV=production node server.prod.js"
   },
   "author": "Max Stoiber",
